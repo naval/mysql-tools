@@ -7,4 +7,4 @@ node_js :
 
 before_script:
   - mysql -u root -e 'create database myapp_test;'
-  - mysql < test/postgres.sql
+  - mysql < test/mysql.sql
