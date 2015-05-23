@@ -20,9 +20,8 @@ Create mysql database dump and restore
     var tool = new MysqlTools();
      tool.dumpDatabase({
         host: 'localhost'
-        , port: 5432
-        , user: 'postgres'
-        , password: 'postgres'
+        , user: 'root'
+        , password: 'root'
         , dumpPath: 'home/backup'
         , database: 'test'
     }, function (error, output, message, dumpFileName) {
@@ -38,9 +37,8 @@ Create mysql database dump and restore
     var tool = new MysqlTools();
      tool.restoreDatabase({
         host: 'localhost'
-        , port: 5432
-        , user: 'postgres'
-        , password: 'postgres'
+        , user: 'root'
+        , password: 'root'
         , sqlFilePath: '/home/backup/test1430762417616.sql'
         , database: 'test'
     }, function (error, output, message) {
