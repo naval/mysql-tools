@@ -26,7 +26,7 @@ Create mysql database dump and restore
         , database: 'test'
     }, function (error, output, message, dumpFileName) {
         if (error instanceof Error) {
-           console.log(code);
+           console.log(error);
         } else {
            console.log(output);
            console.log(message);
@@ -43,7 +43,7 @@ Create mysql database dump and restore
         , database: 'test'
     }, function (error, output, message) {
         if (error instanceof Error) {
-           console.log(code);
+           console.log(error);
         } else {
            console.log(output);
            console.log(message);
