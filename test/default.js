@@ -14,7 +14,7 @@ describe('Mysql Tools', function () {
             , user: 'root'
             , password: ''
             , dumpPath: dumpSqlFileName
-            , database: 'dumpdb'
+            , database: 'dbdump'
         },done);
     });
 
@@ -25,7 +25,7 @@ describe('Mysql Tools', function () {
             , user: 'root'
             , password: ''
             , sqlFilePath: dumpSqlFileName
-            , database: 'test'
+            , database: 'myapp_test'
         }, done);
     });
 });
