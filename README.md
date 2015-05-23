@@ -4,7 +4,7 @@ Create mysql database dump and restore
 
 
 [![npm](https://img.shields.io/npm/dm/mysql-tools.svg?style=flat-square)](https://www.npmjs.com/package/mysql-tools)
-[![Travis](https://img.shields.io/travis/eventEmitter/mysql-tools.svg?style=flat-square)](https://travis-ci.org/eventEmitter/mysql-tools)
+[![Travis](https://img.shields.io/travis/naval/mysql-tools.svg?style=flat-square)](https://travis-ci.org/naval/mysql-tools)
 [![node](https://img.shields.io/node/v/mysql-tools.svg?style=flat-square)](https://nodejs.org/)
 
 **Features**
